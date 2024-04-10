@@ -30,6 +30,6 @@ def print_file_info(h5_file_path):
         print_info("/", hdf5_file)  # Start at the root group
 
 # Example usage (replace with your actual file path)
-#h5_file_path = "D:/project/sem_8_project/video short/Trying_2/v_sum/video_sum_project/datasets/datasets/eccv16_dataset_summe_google_pool5.h5"
-h5_file_path = "D:/project/sem_8_project/video short/Trying_2/v_sum/video_sum_project/merge3_features.h5"
+h5_file_path = "D:/project/sem_8_project/video short/Trying_2/v_sum/video_sum_project/datasets/datasets/eccv16_dataset_summe_google_pool5.h5"
+#h5_file_path = "D:/project/sem_8_project/video short/Trying_2/v_sum/video_sum_project/merge3_features.h5"
 print_file_info(h5_file_path)
