@@ -1,15 +1,6 @@
 import json
 
 def find_unique_arrays(json_file):
-  """Finds unique arrays in a JSON file, counts their occurrences, and calculates the total count.
-
-  Args:
-      json_file (str): Path to the JSON file.
-
-  Prints:
-      A dictionary where keys are unique arrays and values are their counts.
-      The total count of unique arrays.
-  """
 
   with open(json_file, 'r') as f:
     data = json.load(f)
